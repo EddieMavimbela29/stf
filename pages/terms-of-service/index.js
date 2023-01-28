@@ -1,10 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
 import { getTerms } from '../../services';
 import { useRouter } from 'next/router';
 import { Loader, Layout } from '../../components';
-import { RichText } from '@graphcms/rich-text-react-renderer';
 
 const Terms = ({ terms }) => {
 
