@@ -13,40 +13,40 @@ const Contact = ({ contact }) => {
 
   return (
     <Layout metaContent={contact.metaContent} title={contact.title}>
-    <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
+    <div className="bg-white shadow-lg py-24 mt-8 rounded-lg lg:p-8 pb-12 mb-8">
       <div className="px-4 lg:px-0">
           <h1 className="mb-8 text-3xl font-semibold">{contact.title}</h1>
 
             <section className="section py-14" id="home">
-                       <div className="container">
-                           <div className="lg:flex justify-center">
-                               <div className="lg:w-2/3 mx-2">
-                                   <div className="text-center">
-                                       <h1 className="text-4xl font-semibold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-10">
-                                           Let's keep in touch.
-                                       </h1>
-                                       <p className="text-base text-gray-400">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                   </section>
+                <div className="container">
+                    <div className="lg:flex justify-center">
+                       <div className="lg:w-2/3 mx-2">
+                           <div className="text-center">
+                               <h1 className="text-4xl font-semibold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600 mb-10">
+                                   Let's keep in touch.
+                                </h1>
+                                <p className="text-base text-gray-400">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</p>
+                            </div>
+                          </div>
+                      </div>
+                   </div>
+              </section>
 
 
 
-                   <section className="section py-10">
-                       <div className="container">
-                           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                               <div>
-                                  <div className="md:flex md:flex-row lg:justify-start lg:flex-col lg:text-left md:justify-between">
-                                       <div className="mb-6">
-                                           <h1 className=" text-base font-medium mb-2">Email Address</h1>
-                                           <a className="text-gray-400 text-sm font-medium" href="mailto:studentfontein@gmail.com">studentfontein@gmail.com</a>
-                                       </div>
+              <section className="section py-10">
+                  <div className="container">
+                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                        <div>
+                           <div className="md:flex md:flex-row lg:justify-start lg:flex-col lg:text-left md:justify-between">
+                                <div className="mb-6">
+                                   <h1 className=" text-base font-medium mb-2">Email Address</h1>
+                                      <a className="text-gray-400 text-sm font-medium" href="mailto:studentfontein@gmail.com">studentfontein@gmail.com</a>
+                                 </div>
 
                                        <div className="mb-6">
                                            <h1 className=" text-base font-medium mb-2">Telephone</h1>
-                                           <a  className="text-gray-400 text-sm font-medium" href="tel:+(27)71 128 1113  -7890">+(27)71 128-1113</a>
+                                           <a  className="text-gray-400 text-sm font-medium" href="/">+(27)71 128-1113</a>
                                        </div>
 
                                        <div className="mb-6">
@@ -57,7 +57,7 @@ const Contact = ({ contact }) => {
                                </div>
 
                                <div className="lg:col-span-2">
-                                  <form method="post" name="myForm" id="myForm">
+                                  <form>
                                        <p id="error-msg"></p>
                                        <div id="simple-msg"></div>
                                        <div className="space-y-6">
@@ -79,8 +79,8 @@ const Contact = ({ contact }) => {
                                </div>
                            </div>
                        </div>
-                   </section>
-      </div>
+             </section>
+          </div>
       </div>
     </Layout>
   );

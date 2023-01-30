@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { HiOutlineArrowSmR } from 'react-icons/hi';
 
 const HacksPostCard = ({ post }) => (
   <>
@@ -19,7 +20,7 @@ const HacksPostCard = ({ post }) => (
               <div className="mt-4">
                   <a href={`/post/${post.slug}`} className="btn btn-link font-normal hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">
                      Read More
-                    <i className="uil uil-arrow-right"></i>
+                  {/*  <HiOutlineArrowSmR className='align-middle' /> */}
                   </a>
               </div>
           </div>

@@ -10,8 +10,7 @@ const Ads = () => {
 
         <Link href='youtube.com'>
             <p> AD HERE</p>
-          </Link>
-      ))}
+        </Link>
     </div>
   );
 };

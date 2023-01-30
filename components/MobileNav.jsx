@@ -16,7 +16,7 @@ const MobileNav = () => {
     <div className='bg-gray-900 w-full h-full'>
 
       <ul className='h-full w-full flex flex-col justify-center items-center gap-y-8'>
-      <a href='#'  data-aos='fade-down' data-aos-delay='1000'>
+      <a href='/'  data-aos='fade-down' data-aos-delay='1000'>
 
         <h4 className="text-4xl font-semibold leading-[50px] tracking-wide text-transparent bg-clip-text bg-gradient-to-l from-pink-400 to-blue-600">
             SF.
