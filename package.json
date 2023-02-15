@@ -1,11 +1,7 @@
 {
-  "name": "graphcms-blog",
+  "name": "StudentFontein30Jan",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=14.0"
-  },
-  "engineStrict": true,
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider'  next dev",
     "build": "next build",
