@@ -1,14 +1,13 @@
-{
-  "name": "StudentFontein30Jan",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
+"name": "StudentFontein30Jan",
+"version": "0.1.0",
+"private": true,
+"scripts": {
     "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider'  next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "dependencies": {
+},
+"dependencies": {
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
     "react-icons": "^4.7.1",
@@ -25,8 +24,8 @@
     "react-multi-carousel": "^2.6.5",
     "sass": "^1.42.1",
     "swr": "^1.0.1"
-  },
-  "devDependencies": {
+},
+"devDependencies": {
     "aos": "^2.3.4",
     "react-icons": "^4.4.0",
     "autoprefixer": "^10.3.6",
@@ -39,5 +38,5 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "postcss": "^8.3.8",
     "tailwindcss": "^2.2.7"
-  }
+}
 }
